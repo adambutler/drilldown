@@ -1,0 +1,44 @@
+ul.drilldown {
+  width: 300px;
+  height: 400px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: scroll;
+  background: #eee;
+}
+ul.drilldown li {
+  padding: 20px 10px;
+  border-bottom: 1px solid #ccc;
+}
+ul.drilldown ul {
+  width: 300px;
+  height: 400px;
+  background: #ddd;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+}
+ul.drilldown > li > ul a {
+  color: red;
+}
+ul.drilldown > li > ul > li > ul a {
+  color: green;
+}
+ul.drilldown > li > ul > li > ul > li > ul a {
+  color: blue;
+}
+ul.drilldown > li > ul > li > ul > li > ul > li > ul a {
+  color: cyan;
+}
+ul.drilldown > li > ul > li > ul > li > ul > li > ul > li > ul a {
+  color: magenta;
+}
+ul.drilldown > li > ul > li > ul > li > ul > li > ul > li > ul > li > ul a {
+  color: black;
+}
